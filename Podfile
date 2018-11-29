@@ -4,6 +4,6 @@ platform :ios, '6.0'
 
 pod 'jetfire', '0.1.2'
 
-target 'WebsocketStompKitTests', :exclusive => true do
+target 'WebsocketStompKitTests' do
         pod 'Kiwi', '2.2'
 end

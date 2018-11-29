@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		005859CE1AB96F30006185FB /* WebsocketStompKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 005859CD1AB96F30006185FB /* WebsocketStompKit.m */; };
 		005859D11AB96F53006185FB /* WebsocketStompKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005859D01AB96F53006185FB /* WebsocketStompKitTests.m */; };
-		6C24B5EB8E0343E483E53CA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4F2569A574CA6A0704DA6 /* libPods.a */; };
+		0C46C2AA64C8C63903914214 /* libPods-WebsocketStompKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093E64997AEE15BB90417CAE /* libPods-WebsocketStompKitTests.a */; };
 		932BA57C18056C4B00A03257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932BA57B18056C4B00A03257 /* Foundation.framework */; };
 		932BA58A18056C4C00A03257 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932BA58918056C4C00A03257 /* XCTest.framework */; };
 		932BA58B18056C4C00A03257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932BA57B18056C4B00A03257 /* Foundation.framework */; };
@@ -46,9 +46,10 @@
 		005859CD1AB96F30006185FB /* WebsocketStompKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsocketStompKit.m; path = WebsocketStompKit/WebsocketStompKit.m; sourceTree = SOURCE_ROOT; };
 		005859CF1AB96F53006185FB /* WebsocketStompKitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsocketStompKitTests.h; path = WebsocketStompKitTests/WebsocketStompKitTests.h; sourceTree = SOURCE_ROOT; };
 		005859D01AB96F53006185FB /* WebsocketStompKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsocketStompKitTests.m; path = WebsocketStompKitTests/WebsocketStompKitTests.m; sourceTree = SOURCE_ROOT; };
+		093E64997AEE15BB90417CAE /* libPods-WebsocketStompKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebsocketStompKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A4F2569A574CA6A0704DA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		566F44FAC018466ACDB20B75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		591868DBFE214F55AB478DA7 /* libPods-StompKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StompKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8DB9EC589DA26F65548EA6 /* Pods-WebsocketStompKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketStompKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketStompKitTests/Pods-WebsocketStompKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		9320F3901816698700FF599F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		932BA57818056C4B00A03257 /* libWebsocketStompKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebsocketStompKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		932BA57B18056C4B00A03257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +60,7 @@
 		932BA59518056C4C00A03257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		938827ED18056CA2009A1164 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		938827EE18056CA2009A1164 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		9D76DD3AA2A0BA27F8BC7D9A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DBE1ABE2B4F40413207BE272 /* Pods-WebsocketStompKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebsocketStompKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebsocketStompKitTests/Pods-WebsocketStompKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E13BC1EA3039EC423342920B /* Pods-StompKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StompKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StompKitTests/Pods-StompKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2106E46785E4C239A551BE3 /* Pods-StompKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StompKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StompKitTests/Pods-StompKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				932BA57C18056C4B00A03257 /* Foundation.framework in Frameworks */,
-				6C24B5EB8E0343E483E53CA2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +83,7 @@
 				932BA59018056C4C00A03257 /* libWebsocketStompKit.a in Frameworks */,
 				932BA58B18056C4C00A03257 /* Foundation.framework in Frameworks */,
 				D1313E2FF21A4E15A007CA43 /* libPods-StompKitTests.a in Frameworks */,
+				0C46C2AA64C8C63903914214 /* libPods-WebsocketStompKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +121,7 @@
 				932BA58C18056C4C00A03257 /* UIKit.framework */,
 				37A4F2569A574CA6A0704DA6 /* libPods.a */,
 				591868DBFE214F55AB478DA7 /* libPods-StompKitTests.a */,
+				093E64997AEE15BB90417CAE /* libPods-WebsocketStompKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,10 +158,10 @@
 		C220D1A04164CBCD2C98650C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D76DD3AA2A0BA27F8BC7D9A /* Pods.debug.xcconfig */,
-				566F44FAC018466ACDB20B75 /* Pods.release.xcconfig */,
 				E13BC1EA3039EC423342920B /* Pods-StompKitTests.debug.xcconfig */,
 				F2106E46785E4C239A551BE3 /* Pods-StompKitTests.release.xcconfig */,
+				DBE1ABE2B4F40413207BE272 /* Pods-WebsocketStompKitTests.debug.xcconfig */,
+				7C8DB9EC589DA26F65548EA6 /* Pods-WebsocketStompKitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -171,11 +173,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932BA59B18056C4C00A03257 /* Build configuration list for PBXNativeTarget "WebsocketStompKit" */;
 			buildPhases = (
-				F14EDA9ACA514E238C2E405D /* Check Pods Manifest.lock */,
 				932BA57418056C4B00A03257 /* Sources */,
 				932BA57518056C4B00A03257 /* Frameworks */,
 				932BA57618056C4B00A03257 /* CopyFiles */,
-				F35F0CAAF0E740C2A96A5AC7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,11 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932BA59E18056C4C00A03257 /* Build configuration list for PBXNativeTarget "WebsocketStompKitTests" */;
 			buildPhases = (
+				553383DBEE722F16AE6DA024 /* [CP] Check Pods Manifest.lock */,
 				125CC95EDE78443AA2A8A7CA /* Check Pods Manifest.lock */,
 				932BA58418056C4C00A03257 /* Sources */,
 				932BA58518056C4C00A03257 /* Frameworks */,
 				932BA58618056C4C00A03257 /* Resources */,
-				D78F70268CF740B1A5B2133D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,49 +260,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D78F70268CF740B1A5B2133D /* Copy Pods Resources */ = {
+		553383DBEE722F16AE6DA024 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebsocketStompKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StompKitTests/Pods-StompKitTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F14EDA9ACA514E238C2E405D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F35F0CAAF0E740C2A96A5AC7 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -418,7 +391,6 @@
 		};
 		932BA59C18056C4C00A03257 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D76DD3AA2A0BA27F8BC7D9A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/StompKit.dst;
 				OTHER_LDFLAGS = "-ObjC";
@@ -429,7 +401,6 @@
 		};
 		932BA59D18056C4C00A03257 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 566F44FAC018466ACDB20B75 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/StompKit.dst;
 				OTHER_LDFLAGS = "-ObjC";
@@ -440,7 +411,7 @@
 		};
 		932BA59F18056C4C00A03257 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E13BC1EA3039EC423342920B /* Pods-StompKitTests.debug.xcconfig */;
+			baseConfigurationReference = DBE1ABE2B4F40413207BE272 /* Pods-WebsocketStompKitTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,7 +431,7 @@
 		};
 		932BA5A018056C4C00A03257 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2106E46785E4C239A551BE3 /* Pods-StompKitTests.release.xcconfig */;
+			baseConfigurationReference = 7C8DB9EC589DA26F65548EA6 /* Pods-WebsocketStompKitTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
